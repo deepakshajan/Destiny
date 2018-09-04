@@ -1,0 +1,20 @@
+00100 10110 10010 00010
+00100 11010 01110 11000
+00100 11010 01100 10010
+00100 11000 00111 11000
+
+# ---- INSTRUCTIONS ----
+# All lines that start with the character # are comments and should be ignored when the file is parsed.
+# The above binary matrix is used to configure the maze layout used in the game.Each element in the matrix is a set of 5 bits.
+# For Example the first element of the matrix is 00100.
+# Each element in the matrix represents a room.Imagine that you are viewing the rooms from way up above from the sky. These rooms
+# are rectangular in shape and can have have a minimum of 0 doors to a maximum of 4 doors
+# Each element is made up of 5 bits. These bits hold information regarding the direction of all doors in each room. The order of
+# direction is given by LTRBX which simple stands for Left-Top-Right-Bottom-Destination.
+# For example consider the element 00111. Comparing the element with LTRB we find that L=0,T=0,R=1,B=1,X=1.
+#       L=0 -> Means that in this room there is no door to the left.
+#       T=0 -> Means that in this room there is no door to the top.
+#       R=1 -> Means that in this room there is a door to the right.
+#       B=0 -> Means that in this room there is a door to the bottom.
+#       X=1 -> Means that when the player reaches this room the maze is considered to be solved, and not solved if X=0.
+# In the game we use this matrix to construct the maze from which the player should escape. There should only be one route for escape.
