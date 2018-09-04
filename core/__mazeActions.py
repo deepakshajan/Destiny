@@ -60,7 +60,6 @@ def moveInDirection(direction: str,
                 curPos[0] = curPos[0] + 1
     else:
         raise Exception('Cannot move in the direction:%s in the position:[%s,%s]' % (direction, curPos[0], curPos[1]))
-    print('You are now in room [%d][%d]' % (curPos[0], curPos[1]))
     return curPos
 
 

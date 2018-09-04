@@ -1,6 +1,5 @@
 import core.__directionAdapter as adapter, core
-__curPosition = [
- 0, 0]
+__curPosition = [0, 0]
 __curDirection = ''
 
 def moveToOnlyAvailableRoom():
@@ -11,12 +10,11 @@ def moveToOnlyAvailableRoom():
 
 
 def getUserInputInUserContext() -> str:
-    newDirection = input('Which direction do you want to move(left,right,straight,back)')
+    newDirection = input('Which direction do I have to move now(left,right,straight,back) : ')
     valid = ('left', 'right', 'straight', 'back')
     while newDirection not in valid:
         print('Sorry, that is not a valid direction!')
-        newDirection = input('Which direction do you want to move(left,right,straight,back)')
-        print('current pos -> [%s,%s]' % (__curPosition[0], __curPosition[1]))
+        newDirection = input('Which direction do I have to move now?(left,right,straight,back) : ')
 
     return newDirection
 
@@ -30,8 +28,7 @@ def getDirectionInApplicationContext():
 def getUserInputOnDirection() -> str:
     newDirection = getDirectionInApplicationContext()
     while core.canMoveInDirection(newDirection, __curPosition) == False:
-        print('Sorry, there is no door in that direction!')
-        print('Room -> ' + str(__curPosition))
+        print('There is no door in that direction. Guess I will have to try another direction!')
         newDirection = getDirectionInApplicationContext()
 
     return newDirection
@@ -44,8 +41,10 @@ def startMaze():
         newDirection = getUserInputOnDirection()
         core.moveInDirectionIfStillInsideMaze(newDirection, __curPosition)
         __curDirection = newDirection
+        if core.isMazeSolved(__curPosition) ==False:
+            print('Another room!!')
 
-    print('Congratz you finally made it out...')
+    print("Looks like I have finally made it out. I wonder what's next!!")
 
 
 startMaze()
