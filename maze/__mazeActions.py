@@ -1,4 +1,4 @@
-import core.__maze as __maze
+import maze.__maze as __maze
 __maze.createMaze()
 
 def __canMoveLeft(curPos: []):
