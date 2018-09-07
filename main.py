@@ -1,4 +1,5 @@
 import mainCache
+import maze
 
 
 class Main:
@@ -67,7 +68,7 @@ def getNextQuestion(questionId, answer):
     screenplay = cache.getScreenPlay()
     for item in screenplay:
         if item[0] == questionId:
-            if item[1] =="<CLIMAX>":
+            if item[1] == "<CLIMAX>":
                 climax = cache.getClimax()
                 playClimax(climax)
                 return None
@@ -78,12 +79,16 @@ def getNextQuestion(questionId, answer):
 
 def playQuestions(questionId):
     question = getQuestionFromCache(questionId)
-    displayQuestion(question)
-    answer = getAnswer()
-    nextQuestionId = getNextQuestion(questionId,answer)
-    if nextQuestionId != None:
-        playQuestions(nextQuestionId)
+    if question != None:
+        displayQuestion(question)
+        answer = getAnswer()
+        nextQuestionId = getNextQuestion(questionId,answer)
+        if nextQuestionId != None:
+            playQuestions(nextQuestionId)
 
+
+def playMaze():
+    maze.startMaze()
 
 
 def start():
@@ -93,6 +98,8 @@ def start():
         if item == "<INTRO>":
             intro = cache.getIntro()
             playIntro(intro)
+        elif item == "<MAZE>":
+            playMaze()
         else:
             playQuestions(item[0])
             break

@@ -20,6 +20,6 @@ def __parseLine(line: str):
 
 
 def createMaze():
-    mazeLayout = open('../conf/maze.txt', 'r')
+    mazeLayout = open('./conf/maze.txt', 'r')
     for line in mazeLayout.readlines():
         __parseLine(line.strip())

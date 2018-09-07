@@ -6,8 +6,8 @@ def readScreenPlayFile():
     for line in file:
         if "<INTRO>" in line:
             screenPlay.append(line.replace("\n",""))
-        # elif "<CLIMAX>" in line:
-        #     screenPlay.append(line.replace("\n",""))
+        elif "<MAZE>" in line:
+            screenPlay.append(line.replace("\n",""))
         else:
             line = line.split(".")
             question = []

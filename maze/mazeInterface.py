@@ -37,14 +37,12 @@ def getUserInputOnDirection() -> str:
 def startMaze():
     global __curDirection
     moveToOnlyAvailableRoom()
+    print("\n")
     while maze.isMazeSolved(__curPosition) == False:
         newDirection = getUserInputOnDirection()
         maze.moveInDirectionIfStillInsideMaze(newDirection, __curPosition)
         __curDirection = newDirection
         if maze.isMazeSolved(__curPosition) ==False:
-            print('Another room!!')
+            print('Yet another room!!')
 
-    print("Looks like I have finally made it out. I wonder what's next!!")
-
-
-startMaze()
+    print("\nLooks like I have finally made it out. I wonder what's next!!")

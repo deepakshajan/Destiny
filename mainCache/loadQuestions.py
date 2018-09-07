@@ -18,6 +18,8 @@ def readQuestionsFile()->[]:
                 questionItem["Q"] = lineList[2].replace("\n","")
             elif lineList[0]=="O":
                 optionList.append(lineList[1].replace("\n",""))
+            else:
+                questionItem["Q"] += lineList[0].replace("\n","")
     questionItem["O"] = optionList
     questionList.append(questionItem)
     return questionList
