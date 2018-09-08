@@ -1,12 +1,40 @@
 <INTRO>
+<MAZE>
 1.A.2
-1.B.3
-1.C.4
-2.A.5
-2.B.6
-2.C.7
-3.<CLIMAX>
-4.<CLIMAX>
-5.<CLIMAX>
-6.<CLIMAX>
-7.<CLIMAX>
+1.B.11
+2.A.3
+2.B.12
+3.A.4
+3.B.12
+4.A.5
+4.B.13
+5.A.6
+5.B.14
+6.A.7
+6.B.15
+7.A.8
+7.B.9
+8.A.9
+9.A.10
+9.B.<CLIMAX>
+10.A.<CLIMAX>
+11.A.5
+11.B.13
+12.A.16
+13.A.5
+14.A.7
+14.B.15
+15.A.8
+15.B.9
+16.A.4
+
+# ---- INSTRUCTIONS ----
+# All lines that start with the character # are comments and should be ignored when the file is parsed.
+# This file contains info about the order in which each element in the game has to be rendered.
+# <INTRO> means that the intro file content is to be rendered.
+# <MAZE> means that the maze minigame will be rendered.
+# <CLIMAX> means that the climax file content is to be rendered.
+# The entry 1.A.2 means that for the question 1 when the player chooses the option A, then the next question that is to be rendered is 2.
+# The entry 9.B.<CLIMAX> means that for the question 9 when the player chooses the option B, then the climax content is to be rendered.
+# The file is parsed from top to bottom, but once the line in the form x.y.z is reached, then the content is no longer rendered in the top to
+# bottom order.

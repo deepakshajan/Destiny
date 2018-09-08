@@ -1,34 +1,95 @@
-Q~1~Question-1
-O~A.Option-1
-O~B.Option-2
-O~C.Option-3
+Q~1~That maze was tough. Glad I don't have to go in there again. But it has now lead me into an even stranger place.
+ I see stuff appearing out of nowhere. Wait!, there are things that disappear too. Is this some kind of magic world?
+ I wonder when I am going to disappear! I see a mansion. Wait!, there is smoke rising from far behind the mansion. Looks like the smoke is coming from a forest behind the mansion.
+O~A.Go inside the mansion.
+O~B.Ignore the mansion. Follow the road that leads to the smoke.
 ======================================
-Q~2~Question-2
-O~A.Option-1
-O~B.Option-2
-O~C.Option-3
+Q~2~This is a strange looking house. I wonder who would live in such a haunted place. Lets see if there is some one inside who can help me.
+ Wait,What! How did that door open without me even touching it! Should I have gone for the smoke instead! Is this some kind of magic. Or is this place really haunted!
+ Lets see. Nothing interesting in the ground floor. Perhaps I should check the basement or the top floor.
+O~A.Check the top floor.
+O~B.Check the basement.
 ======================================
-Q~3~Question-3
-O~A.Option-1
-O~B.Option-2
-O~C.Option-3
+Q~3~What is this place. Better check if I can find something useful. That carpet does not fit with the room. What does that note near the carpet say!
+ "ONLY THE ONE WHO HAS KNOWLEDGE BE WORTHY TO FLY". What does that even mean. Does this carpet really fly.
+O~A.Sit on the carpet
+O~B.Go to the basement.
 ======================================
-Q~4~Question-4
-O~A.Option-1
-O~B.Option-2
-O~C.Option-3
+Q~4~Wow!! This carpet levitates in the air. Its moving forward. Out through the window. I see a giant statue on the ground. Or is that really just a statue?
+ It does not resemble anything I have seen before. Is that some kind of animal? Resembles a warrior.
+ The carpet seems to slow down. Why would this carpet take me in front of this cave? I wonder what creatures are in the inside. Should I go in?
+ Even the carpet has left me alone here. I think its heading back home. I hope I could too somehow. Only if I knew where my home was.
+O~A.Go inside the cave.
+O~B.Return to the mansion.
 ======================================
-Q~5~Question-5
-O~A.Option-1
-O~B.Option-2
-O~C.Option-3
+Q~5~Its getting darker as I move inside. Lots of thick white ropes running throughout the cave. They form an enormous structure.
+ There are objects stuck on them, like they are glued. I wonder what its purpose could be. What is that sound that I hear.
+ Something is moving there. A giant spider. The entire structure was a giant spider web. The spsider is getting closer to me. I think that it wants to eat me.
+O~A.Fight the spider.
+O~B.Run away from the spider.
 ======================================
-Q~6~Question-6
-O~A.Option-1
-O~B.Option-2
-O~C.Option-3
+Q~6~This does not look good. I don't think I can hold on much longer. Better run away. But the monster is chasing me. I will have to run faster. It wont stop following me.
+ May be if I get into the mansion it wont be able to catch me. Yeah. The beast cant reach me in here. Better check the basement of the house.
+ I smell blood. There is something written on the ceiling. Looks like its been written in blood. Who would do that? "A WHISPER INTO THE MIGHTY SHALL MOVE IT".
+ I get it. The statue! I should get to the statue.
+O~A.Check the top floor to see if the carpet is there.
+O~B.Trick the beast and run to the statue.
 ======================================
-Q~7~Question-7
-O~A.Option-1
-O~B.Option-2
-O~C.Option-3
+Q~7~The carpet has returned. Now that I have the knowledge of where I have to go, maybe it will take me to the statue. Lets try. Finally reached the statue.
+ So I believe that I have to whisper to the statue. Lets try.
+O~A.Whisper something to the left ear.
+O~B.Whisper something to the right ear.
+======================================
+Q~8~Nothing has happened. Maybe I should try the other ear.
+O~A.Whisper something to the right ear.
+======================================
+Q~9~Wow. The statue moves to the side. Looks like there is a secret tunnel below the statue. This could be my way out of this weird world. This is a narrow tunnel.
+ I have reached a room. But this room leads to no where. May be there is another secret passage here somewhere. But all I can see is a pool of water.
+ There is something written near by the pool. "THOSE WHO DRINK FROM THIS POOL SHALL HAVE ETERNITY". Having eternity is a real gift. Is this my destiny? Being eternal!
+O~A.Better be sure. Check for secret passages in the room.
+O~B.Drink from the pool
+======================================
+Q~10~I can't find any passages in this room.
+O~A.Drink from the pool.
+======================================
+Q~11~The smoke looks further away than I had expected. That is a weird statue. It does not resemble anything I have seen before. Is that some kind of animal? Resembles a warrior.
+ Guess I will have to move forward. Hmm. The road ends in front of a cave. Will there be someone inside the cave?
+O~A.Go inside the cave.
+O~B.Return to the mansion.
+======================================
+Q~12~I smell blood. There is something written on the roof. Looks like its been written in blood. Who would do that?
+ "A WHISPER INTO THE MIGHTY SHALL MOVE IT." What does that even mean? Nothing more interesting here.
+O~A.Go to the top floor
+======================================
+Q~13~It is a huge risk going into that cave. I don't even have a clue what could be inside it. Better return to the mansion. Wait! Where is the mansion? It was there a while ago.
+ I can't see it anymore. How has it disappeared. What a strange place. Guess I have no other option.
+O~A.Go inside the cave.
+======================================
+Q~14~This does not look good. I don't think I can fight this monster. Better run away. But the beast is chasing me. I will have to run faster. It wont stop following me.
+ May be if I get into the mansion it wont be able to catch me. Yeah. The beast cannot reach me in here. Better check the basement of the house.
+ The smell of blood reminds me of the message on the roof. "A WHISPER INTO THE MIGHTY SHALL MOVE IT".
+ I get it. The statue! I should get to the statue.
+O~A.Check the top floor to see if the carpet is there.
+O~B.Trick the beast and run to the statue.
+======================================
+Q~15~The monster runs mad around the house. Probably frustrated of missing a meal. I will have to somehow distract it. May be I can create a fire.
+ That should frighten the monster. Lucky we have lit candles here. But I wonder who would have kept them lit in here. But now is not the time to figure that out.
+ I should escape this place. Yeah. The monster runs way being scared by the fire. Now I can safely follow the road to the statue.
+ Better get there soon. So I believe I have to whisper to the statue. Lets try.
+O~A.Whisper to the left ear.
+O~B.Whisper to the right ear.
+======================================
+Q~16~What is this place. Better check if I can find something useful. That carpet does not fit with the rest of the room. What does that note near the carpet say!
+ "ONLY THE ONE WHO HAS KNOWLEDGE BE WORTHY TO FLY". What does that even mean. Does this carpet really fly.
+O~A.Sit on the carpet
+======================================
+
+# ---- INSTRUCTIONS ----
+# All lines that start with the character # are comments and should be ignored when the file is parsed.
+# All lines that contain the sequence '====' are ignored when the file is parsed. This can be used to visually separate each question.
+# This file contains all the questions and its respective options for possible answers.
+# A line starting with 'Q' denotes that it is a question.
+# A line starting with 'O' denotes that it is an option.
+# A question can span across multiple lines as shown in this file.
+# But options are limited to a single line
+# There is a limit of 5 to the number of options that a question can have.

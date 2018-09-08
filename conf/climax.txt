@@ -1,21 +1,17 @@
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-<PAUSE>
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
-climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax.climax
+I feel so weak and sleepy...
+
+   Where am I! What is this place! I feel so dizzy. How long have I been sleeping! I can't even remember my name. Something is not right. Looks like I am in some sort of room.
+ Wait! Is that a note in my pocket! Hmm. It reads "YOU HAVE NO CHOICE" What could that mean! Guess I will have to explore whats outside the room. Wait!
+ The door leads me into another room. And this one has more doors. Is this some sort of maze? Hmm.. Only one way to find out.     ...
+
+# ---- INSTRUCTIONS ----
+# All lines that start with the character # are comments and should be ignored when the file is parsed.
+# This file holds the climax paragraphs used in the game.
+# It s possible to have multiple paragraphs in the file.
+# Each paragraph should be seperated by the a line containing <PAUSE>. This line makes the interface wait for the player to hit the Enter button
+# before he can read the following section.
+# For example a simple example for the file is shown below
+#
+# Paragraph-1
+# <PAUSE>
+# Paragraph-2
