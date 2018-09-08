@@ -68,7 +68,7 @@ def getNextQuestion(questionId, answer):
     screenplay = cache.getScreenPlay()
     for item in screenplay:
         if item[0] == questionId:
-            if item[1] == "<CLIMAX>":
+            if item[1] == "<CLIMAX>" or item[2] == "<CLIMAX>":
                 climax = cache.getClimax()
                 playClimax(climax)
                 return None
@@ -93,6 +93,7 @@ def playMaze():
 
 def start():
     mainObj = Main()
+    print("\n")
     cache = Main.getCache(mainObj)
     for item in cache.getScreenPlay():
         if item == "<INTRO>":
