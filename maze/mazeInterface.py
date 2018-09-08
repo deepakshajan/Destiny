@@ -10,7 +10,7 @@ def moveToOnlyAvailableRoom():
 
 
 def getUserInputInUserContext() -> str:
-    newDirection = input('Which direction do I have to move now(left,right,straight,back) : ')
+    newDirection = input('Which direction do I have to move now(left,right,straight,back) : ').lower()
     valid = ('left', 'right', 'straight', 'back')
     while newDirection not in valid:
         print('Sorry, that is not a valid direction!')

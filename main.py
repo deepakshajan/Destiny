@@ -54,8 +54,8 @@ def displayQuestion(question):
 
 def getAnswer():
     answer = input("What should I do?? : ")
-    valid = ['A','B','C','D']
-    if answer in valid:
+    valid = ['A','B','C','D','E']
+    if answer.upper() in valid:
         return answer
     else:
         print("Invalid option, please try again.")
@@ -72,7 +72,7 @@ def getNextQuestion(questionId, answer):
                 climax = cache.getClimax()
                 playClimax(climax)
                 return None
-            if item[1] == answer:
+            if (item[1]).lower() == answer.lower():
                 return item[2]
     return None
 
