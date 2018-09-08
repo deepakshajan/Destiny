@@ -6,7 +6,7 @@ def readQuestionsFile()->[]:
     questionItem = {}
     optionList = []
     for line in file:
-        if "===" not in line:
+        if "====" not in line and line.startswith("#") == False:
             lineList = line.split("~")
             if lineList[0]=="Q":
                 if questionItem:

@@ -6,12 +6,13 @@ def readClimaxFile()->[]:
     climaxSection = []
     climaxSectionFragment = ""
     for line in climaxFile:
-        if "<PAUSE>" not in line:
-            line = line.replace('\n','')
-            climaxSectionFragment+=line
-        else:
-            climaxSection.append(climaxSectionFragment)
-            climaxSectionFragment = ""
+        if line.startswith("#") == False:
+            if "<PAUSE>" not in line:
+                line = line.replace('\n','')
+                climaxSectionFragment+=line
+            else:
+                climaxSection.append(climaxSectionFragment)
+                climaxSectionFragment = ""
     climaxSection.append(climaxSectionFragment)
     return climaxSection
 

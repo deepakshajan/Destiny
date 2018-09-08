@@ -6,12 +6,13 @@ def readIntroFile()->[]:
     introSection = []
     introSectionFragment = ""
     for line in introFile:
-        if "<PAUSE>" not in line:
-            line = line.replace('\n','')
-            introSectionFragment+=line
-        else:
-            introSection.append(introSectionFragment)
-            introSectionFragment = ""
+        if line.startswith("#") == False:
+            if "<PAUSE>" not in line:
+                line = line.replace('\n','')
+                introSectionFragment+=line
+            else:
+                introSection.append(introSectionFragment)
+                introSectionFragment = ""
     introSection.append(introSectionFragment)
     return introSection
 

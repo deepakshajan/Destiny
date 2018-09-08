@@ -4,16 +4,17 @@ def readScreenPlayFile():
     file = open("./conf/screenplay.txt")
     screenPlay = []
     for line in file:
-        if "<INTRO>" in line:
-            screenPlay.append(line.replace("\n",""))
-        elif "<MAZE>" in line:
-            screenPlay.append(line.replace("\n",""))
-        else:
-            line = line.split(".")
-            question = []
-            for lineItem in line:
-                question.append(lineItem.replace("\n",""))
-            screenPlay.append(question)
+        if line.startswith("#") == False:
+            if "<INTRO>" in line:
+                screenPlay.append(line.replace("\n",""))
+            elif "<MAZE>" in line:
+                screenPlay.append(line.replace("\n",""))
+            else:
+                line = line.split(".")
+                question = []
+                for lineItem in line:
+                    question.append(lineItem.replace("\n",""))
+                screenPlay.append(question)
     return screenPlay
 
 
