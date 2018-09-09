@@ -18,3 +18,4 @@
 #       B=0 -> Means that in this room there is a door to the bottom.
 #       X=1 -> Means that when the player reaches this room the maze is considered to be solved, and not solved if X=0.
 # In the game we use this matrix to construct the maze from which the player should escape. There should only be one route for escape.
+# The solution to this particular configuration above is straight->right->straight->left->right->right
