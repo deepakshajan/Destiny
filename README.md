@@ -11,7 +11,7 @@ A simple text based game with an abstract storyline.
  <ul>
   <li>Clone the repository into local</li>
   <li>Run the play.bat file.</li>
- </ul
+ </ul>
  
  <h4>Customizations</h4>
  
